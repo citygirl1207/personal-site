@@ -8,9 +8,9 @@ body {
     align-items: center;
     min-height: 100%;
     margin: 0;
-    background: linear-gradient(to bottom, rgb(0, 255, 98), rgb(188, 235, 135));
+    background: linear-gradient(to bottom, rgb(98, 158, 121), rgb(188, 235, 135));
     text-align: center;
-    font-family: sans-serif;
+    font-family: cursive;
 }
 
 nav {
@@ -42,4 +42,9 @@ input, button {
     border: 1px solid deepskyblue;
     border-radius: 8px;
     font-size: 16px;
+}
+
+#thankyouMessage {
+    opacity: 0;
+    transition: all 0.5s;
 }
